@@ -146,5 +146,5 @@ const run = (pagesToScrape) => {
   });
 };
 
-run(316);
+run(0);
 // .then(console.log).catch(console.error);
