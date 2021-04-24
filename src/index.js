@@ -146,5 +146,6 @@ const run = (pagesToScrape) => {
   });
 };
 
+// start parsing from page 0
 run(0);
 // .then(console.log).catch(console.error);
