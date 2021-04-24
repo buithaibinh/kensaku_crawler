@@ -1,0 +1,17 @@
+{
+  "name": "scraping_pharmacies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Binh Bui",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "parse": "node src/parser.js",
+    "csv": "json2csv -i outputs/data.json -o outputs/data.csv"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.6",
+    "https": "^1.0.0",
+    "puppeteer": "^8.0.0"
+  }
+}
